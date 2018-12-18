@@ -1,3 +1,4 @@
+# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hyrax/version'
@@ -31,14 +32,13 @@ SUMMARY
   # http://guides.rubyonrails.org/maintenance_policy.html
   spec.add_dependency 'rails', '~> 5.0'
 
-  spec.add_dependency 'active-fedora', '~> 11.5', '>= 11.5.2'
+  spec.add_dependency 'active-fedora', '~> 12.0'
   spec.add_dependency 'almond-rails', '~> 0.1'
   spec.add_dependency 'awesome_nested_set', '~> 3.1'
   spec.add_dependency 'blacklight', '~> 6.14'
   spec.add_dependency 'blacklight-gallery', '~> 0.7'
   spec.add_dependency 'breadcrumbs_on_rails', '~> 3.0'
-  # Pin browse-everything to stable version
-  spec.add_dependency 'browse-everything', '< 0.16'
+  spec.add_dependency 'browse-everything', '1.0.0rc2'
   spec.add_dependency 'carrierwave', '~> 1.0'
   spec.add_dependency 'clipboard-rails', '~> 1.5'
   spec.add_dependency 'dry-equalizer', '~> 0.2'
@@ -69,7 +69,7 @@ SUMMARY
   spec.add_dependency 'posix-spawn'
   spec.add_dependency 'power_converter', '~> 0.1', '>= 0.1.2'
   spec.add_dependency 'pul_uv_rails', '~> 2.0'
-  spec.add_dependency 'qa', '~> 2.0' # questioning_authority
+  spec.add_dependency 'qa', '>= 2', '< 4' # questioning_authority
   spec.add_dependency 'rails_autolink', '~> 1.1'
   spec.add_dependency 'rdf-rdfxml' # controlled vocabulary importer
   spec.add_dependency 'redis-namespace', '~> 1.5'

@@ -13,7 +13,7 @@ Docs: [![Documentation Status](https://inch-ci.org/github/samvera/hyrax.svg?bran
 [![Apache 2.0 License](http://img.shields.io/badge/APACHE2-license-blue.svg)](./LICENSE)
 
 Jump in: [![Slack Status](http://slack.samvera.org/badge.svg)](http://slack.samvera.org/)
-[![Ready Tickets](https://badge.waffle.io/samvera/hyrax.png?label=ready&milestone=2.x%20series&title=Ready)](https://waffle.io/samvera/hyrax?milestone=2.x%20series)
+[![Ready Tickets](https://badge.waffle.io/samvera/hyrax.png?label=ready&milestone=2.x%20series&title=Ready)](https://waffle.io/samvera/hyrax?milestone=3.x%20series)
 
 # Table of Contents
 
@@ -186,7 +186,7 @@ bin/rails hydra:server
 And now you should be able to browse to [localhost:3000](http://localhost:3000/) and see the application.
 
 Notes:
-* This web server is purely for development purposes. You will want to use a more fully featured [web server](#web-server) for production-like environments.
+* This web server is purely for development purposes. You will want to use a more fully featured [web server](https://github.com/samvera/hyrax/wiki/Hyrax-Management-Guide#web-server) for production-like environments.
 * You have the option to start each of these services individually.  More information on [solr_wrapper](https://github.com/cbeer/solr_wrapper) and [fcrepo_wrapper](https://github.com/cbeer/fcrepo_wrapper) will help you set this up.  Start rails with `rails s`.
 
 ## Start background workers
